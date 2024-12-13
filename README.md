@@ -42,7 +42,7 @@
 
 8. Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker.
 
->Ответ: docker-образ nginx:latest не был удален из локального хранилища из-за установленной опции keep_locally = true. Если необходимо удалять обзаз из локального хранилища при уничтожении ресурсов - значение этой опции следует выставить в false
+>Ответ: docker-образ nginx:latest не был удален из локального хранилища из-за установленной опции keep_locally = true. Если необходимо удалять образ из локального хранилища при уничтожении ресурсов - значение этой опции следует выставить в false
 
 ![keep](task1/keep.png)
 
@@ -50,7 +50,8 @@
 
 ![docs](task1/docs.png)
 
-## Задача 2
+
+## Задача 2*
 
 Весь необходимый код находится в [папке](./task2/)
 
@@ -58,3 +59,18 @@
 
 ![vm](task2/vm.png)
 ![env](task2/env.png)
+
+## Задача 3*
+
+>Выполним теперь все пункты зазания 1 используя tofu вместо terraform. Поскольку все ответы были даны выше, тут прикладываю скрины последовательности выполнения шагов
+
+![apply](task3/apply.png)
+![result](task3/result.png)
+![docker_ps](task3/docker_ps.png)
+![hello](task3/hello.png)
+![auto](task3/auto_approve.png)
+![approve](task3/auto_approve1.png)
+![rename](task3/rename.png)
+![destroy1](task3/destroy1.png)
+![destroy2](task3/destroy2.png)
+![tfstate](task3/tfstate.png)
