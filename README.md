@@ -64,6 +64,7 @@
 
 >Выполним теперь все пункты задания 1 используя tofu вместо terraform. Поскольку все ответы были даны выше, тут прикладываю скрины последовательности выполнения шагов
 
+![apply](task3/apply0.png)
 ![apply](task3/apply.png)
 ![result](task3/result.png)
 ![docker_ps](task3/docker_ps.png)
